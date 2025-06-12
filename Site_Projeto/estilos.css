@@ -1,1 +1,13 @@
 @charset "UTF-8";
+
+body {
+    text-align: center;
+}
+
+#log1 {
+    width: 200px;
+}
+
+#Reg1 {
+    width: 200px;
+}
