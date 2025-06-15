@@ -1,22 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Take-Away</title>
-    
+    <title>FastDeliver - Entregas Rápidas e Confiáveis</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
     <link rel="stylesheet" href="estilos.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
 </head>
 <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="FastDeliver" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rastreamento.html">Rastrear Encomenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h1>Site do Projeto</h1>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-white">Entregas rápidas e seguras</h1>
+                    <p class="lead text-white">Receba suas encomendas no conforto de sua casa com a velocidade FastDeliver</p>
+                    <a href="rastreamento.html" class="btn btn-light btn-lg mt-3">Rastrear Encomenda</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Serviços</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="service-icon bg-primary mb-3">
+                                <i class="bi bi-clock-history text-white"></i>
+                            </div>
+                            <h4 class="card-title">Entrega Rápida</h4>
+                            <p class="card-text">Entregas em até 15 minutos na mesma cidade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="service-icon bg-success mb-3">
+                                <i class="bi bi-box-seam text-white"></i>
+                            </div>
+                            <h4 class="card-title">Combinação em Menus</h4>
+                            <p class="card-text">Para evitar despesas pode combinar os produtos em menus poupando até 35%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="service-icon bg-warning mb-3">
+                                <i class="bi bi-truck text-white"></i>
+                            </div>
+                            <h4 class="card-title">Entrega Especial</h4>
+                            <p class="card-text">Entrega dedicada ás encomendas com itens frágeis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <button type="button" onclick="Login()"id="log">Login</button>
-    <button type="button" onclick="Registar()" id="Reg">Registar</button>
+    <!-- Seção Como Funciona -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Como Funciona</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="assets/delivery-map.png" alt="Mapa de entrega" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Solicite sua entrega</h4>
+                            <p>Faça o pedido pelo nosso site ou aplicativo, informando os detalhes da encomenda.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Coletamos sua encomenda</h4>
+                            <p>Nossos entregadores vão até o local de retirada no horário agendado.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Acompanhe em tempo real</h4>
+                            <p>Receba atualizações e acompanhe a rota do entregador até sua casa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Seção de Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Entre em Contato</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h4 class="mb-4">Informações de Contato</h4>
+                        <p><i class="bi bi-geo-alt-fill me-2"></i> Rua das Entregas, 123 - Centro</p>
+                        <p><i class="bi bi-telephone-fill me-2"></i> (11) 1234-5678</p>
+                        <p><i class="bi bi-envelope-fill me-2"></i> HHFood@gmail.com.pt</p>
+                        <p><i class="bi bi-clock-fill me-2"></i> Seg-Sex: 8h-18h | Sáb: 9h-13h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="codigo.js"></script>
-    
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <img src="assets/logo.png" alt="FastDeliver" height="40">
+                    <p class="mt-2">Entregas rápidas e confiáveis para você.</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Links Úteis</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Termos de Serviço</a></li>
+                        <li><a href="#" class="text-white">Política de Privacidade</a></li>
+                        <li><a href="#" class="text-white">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">© 2023 HH Food. Todos os direitos reservados.</p>
+                <p class="mb-0 small">Site desenvolvido com Bootstrap 5 - Modelo original</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- JS personalizado -->
+    <script src="js/script.js"></script>
 </body>
 </html>
