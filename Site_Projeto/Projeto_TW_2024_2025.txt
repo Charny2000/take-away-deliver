@@ -1,0 +1,23 @@
+Autores do trabalho:
+Henrique Charneca
+Henrique Ruaz
+
+Lista de requisitos cumpridos:
+.Página HTML inicial com o nome: index.html;
+.Página(s) HTML com título(s) adequado(s);
+.Usar um modelo BootStrap 5 (sugestão);
+.Incluir no rodapé o link para o modelo BootStrap usado ou indicar que o site é original;
+.HTML, CSS e JavaScript em ficheiros separados (obrigatório);
+.Nomes de ficheiros e de pastas adequados, em minúsculas, sem acentos, sem espaços e sem caracteres especiais;
+.Ficheiros de imagem (e outros multimédia caso se usem) guardados na pasta "assets";
+.Não conter ficheiros não utilizados;
+.Validação do código HTML;
+.Utilização de uma API ou de um ficheiro JSON;
+.Código HTML, CSS e Javascript mais relevante com comentários
+.Ficheiro de texto, à parte, com a identificação do(s) autor(es), a lista de requisitos cumpridos e não cumpridos e a explicação da API / ficheiro JSON (obrigatório);
+
+Não cumpridos:
+Nenhum
+
+Explicação da API:A utilização do API JSON serve para armazenar os atributos dos produtos que serão vendidos em um array e será chamado através do código.js e irá mostrar cada produto armazenado no site através do html conectado com o JavaScript.
+
