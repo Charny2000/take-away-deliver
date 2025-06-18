@@ -81,10 +81,16 @@ table.menu-titulo {
     width: 100%;
     border-collapse: collapse;
     margin-top: 50px;
+    
 }
 
 td.menu-conteudo {
     text-align: center;
+    font-size: 1.5em;          
+    color: #6a0401;           
+    font-weight: bold;         
+    padding-bottom: 15px;     
+    text-transform: uppercase;
     
 }
 
@@ -108,7 +114,11 @@ table.sobre-nos {
 }
 
 h2.sobre-titulo {
-    padding-left: 50px;
+    font-size: 1.5em;          
+    color: #6a0401;           
+    font-weight: bold;         
+    padding-bottom: 15px;     
+    text-transform: uppercase;
 }
 
 td.sobre-texto {
@@ -128,28 +138,36 @@ img.app-image {
 
 /* Contactos */
 table.contacto-nos {
+    margin-top: 50px;
     width: 100%;
     border-collapse: collapse;
     padding: 50px 0;
     margin-bottom: 50px ;
 }
 
-h2.contacto-titulo {
+th.contacto-titulo {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 2.5em;          
+    color: #6a0401;           
+    font-weight: bold;         
+    padding-bottom: 15px;     
+    text-transform: uppercase;
 }
 
 td.contacto-celula {
+    margin-top: 50px;
     width: 50%;
-    vertical-align: top;
     padding: 0 50px;
+
 }
 
 td.contacto-informacao {
+    margin-top: 50px;   
     width: 50%;
-    vertical-align: top;
     padding: 0 50px;
+    padding-top: 0 20px;
 }
 
 /* Formulário */

@@ -21,3 +21,4 @@ Nenhum
 
 Explicação da API:A utilização do API JSON serve para armazenar os atributos dos produtos que serão vendidos em um array e será chamado através do código.js e irá mostrar cada produto armazenado no site através do html conectado com o JavaScript.
 
+Funcionalidade do API no site: Irá mostrar os produtos no Menu, quanto ao preço, nome e imagem
